@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University Website Design</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		
+		<nav>
+			<a href="index.html"><img src="logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		   <h1>Our Certificates and Online Programs For 2021</h1>
+	</section>
+
+
+	<!-----blog-page- content--->
+
+	<section class="blog-content">
+		<div class="row">
+			<div class="blog-left">
+				<img src="certificate.jpg">
+		   <h1>Our Certificates and Online Programs For 2021</h2>
+		   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Iaculis nunc sed augue lacus. Pretium fusce id velit ut. Ultrices in iaculis nunc sed augue lacus. Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Posuere sollicitudin aliquam ultrices sagittis. Eu volutpat odio facilisis mauris sit amet massa. Mauris pharetra et ultrices neque ornare aenean euismod. Molestie at elementum eu facilisis sed odio morbi. Sociis natoque penatibus et magnis dis parturient montes nascetur. Tortor at risus viverra adipiscing at in tellus integer. Non sodales neque sodales ut etiam. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus.</p><br>
+		   	<p>Felis eget nunc lobortis mattis aliquam faucibus purus. Tempus urna et pharetra pharetra massa massa ultricies mi. Eros in cursus turpis massa. Lectus proin nibh nisl condimentum id venenatis a condimentum vitae. Viverra nibh cras pulvinar mattis nunc sed. Ultrices gravida dictum fusce ut placerat orci nulla. Iaculis at erat pellentesque adipiscing commodo. Sit amet luctus venenatis lectus. At lectus urna duis convallis convallis tellus id interdum velit. Lobortis elementum nibh tellus molestie nunc non blandit massa. Volutpat lacus laoreet non curabitur gravida arcu. Diam ut venenatis tellus in. Porttitor rhoncus dolor purus non enim praesent. Et tortor at risus viverra adipiscing at in tellus. Malesuada fames ac turpis egestas integer eget aliquet nibh. Fames ac turpis egestas integer eget aliquet nibh praesent. Fringilla ut morbi tincidunt augue.</p><br>
+		   	<p>Ut sem nulla pharetra diam sit amet nisl. Ullamcorper a lacus vestibulum sed arcu non. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Turpis massa sed elementum tempus egestas sed sed. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum. Turpis egestas sed tempus urna. Suspendisse potenti nullam ac tortor vitae purus. Molestie at elementum eu facilisis. Imperdiet proin fermentum leo vel. Fermentum odio eu feugiat pretium nibh ipsum consequat. Tincidunt ornare massa eget egestas purus viverra accumsan. Porttitor eget dolor morbi non. In hac habitasse platea dictumst vestibulum. Interdum varius sit amet mattis. Augue mauris augue neque gravida in fermentum. Suspendisse potenti nullam ac tortor vitae purus faucibus. Ullamcorper malesuada proin libero nunc consequat interdum. Nunc pulvinar sapien et ligula ullamcorper malesuada proin.</p>
+
+		   	<div class="comment-box">
+		   		<h3>Leave A Comment...</h3>
+		   		<form class="comment-form">
+		   			<input type="text" placeholder="Enter Name">
+		   			<input type="email" placeholder="Enter Email">
+		   			<textarea rows="5" placeholder="Your Comment"></textarea>
+		   			<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+		   		</form>
+		   	</div>
+			</div>
+			<div class="blog-right">
+				<h3>Post Catagories</h3>
+				<div>
+					<span>Business Analytics</span>
+					<span>21</span>
+				</div>
+				<div>
+					<span>Data Science</span>
+					<span>28</span>
+				</div>
+				<div>
+					<span>Machine Learning</span>
+					<span>15</span>
+				</div>
+				<div>
+					<span>Computer Science</span>
+					<span>34</span>
+				</div>
+				<div>
+					<span>AUTO CAD</span>
+					<span>42</span>
+				</div>
+				<div>
+					<span>Journalism</span>
+					<span>22</span>
+				</div>
+				<div>
+					<span>Commerce</span>
+					<span>30</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+<!-----footer----->
+  <section class="footer">
+  	<h4>About Us</h4>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="icons">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-linken din"></i>
+		</div>
+		<p>Made With <i class="fa fa-heart-o"></i>By Sandesh Gorathoki</p>
+  </section>
+
+
+<script type="text/javascript">
+	var navLinks = document.getElementById('navLinks');
+
+	function showMenu() {
+		navLinks.style.right ="0";
+	}
+	function hideMeny(){
+		navLinks.style.right ="-200px";
+	}
+</script>
+</body>
+</html>
